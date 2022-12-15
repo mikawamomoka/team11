@@ -33,5 +33,7 @@ public class MyWorld extends World
              addObject( new jirai(), x, y );
             
     }
+    setActOrder(jirai.class, num1.class, taro.class);
+    
     }
 }
