@@ -25,10 +25,10 @@ public class MyWorld extends World
         {
             
              int A = 0;
-             int B = 800;
+             int B = 500;
              int x = A + (int)(Math.random()*((B-A)+1));
               A = 0;
-              B = 450;
+              B = 300;
              int y = A + (int)(Math.random()*((B-A)+1));
              addObject( new jirai(), x, y );
             
