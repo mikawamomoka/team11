@@ -32,6 +32,10 @@ public class MyWorld extends World
              int y = A + (int)(Math.random()*((B-A)+1));
              addObject( new jirai(), x, y );   
             
+
             }
+
+            setActOrder(jirai.class, num1.class, taro.class);
     }
+    
 }
