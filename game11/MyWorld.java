@@ -30,8 +30,8 @@ public class MyWorld extends World
               A = 0;
               B = 300;
              int y = A + (int)(Math.random()*((B-A)+1));
-             addObject( new jirai(), x, y );
+             addObject( new jirai(), x, y );   
             
-    }
+            }
     }
 }
