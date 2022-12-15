@@ -15,24 +15,19 @@ public class taro extends Actor
     public void act() 
     {
         // Add your action code here.
-        if( Greenfoot.isKeyDown( "right" ) ){
-        setRotation(0);
-        move(1);
+        int x = getX();
+int y = getY();
+if( Greenfoot.isKeyDown( "left" ) ){
+   setLocation( x-1,y );
 }
-
-        if( Greenfoot.isKeyDown( "left" ) ){
-        setRotation(0);
-        move(-1);
+if( Greenfoot.isKeyDown( "right" ) ){
+   setLocation( x+1,y );
 }
-    
-        if( Greenfoot.isKeyDown( "up" ) ){
-        setRotation(90);
-        move(-1);
+if( Greenfoot.isKeyDown( "up" ) ){
+   setLocation( x,y-1 );
 }
-
-        if( Greenfoot.isKeyDown( "down" ) ){
-        setRotation(90);
-        move(1);
+if( Greenfoot.isKeyDown( "down" ) ){
+   setLocation( x,y+1 );
 }
     }    
 }
