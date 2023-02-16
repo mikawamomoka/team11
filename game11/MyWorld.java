@@ -11,7 +11,7 @@ public class MyWorld extends World
 {
      GreenfootImage back;
     GreenfootImage back_flop;
-    int back_dx = -5; // スクロール速度(マイナスにすると左から右)
+    int back_dx = -4; // スクロール速度(マイナスにすると左から右)
     int back_x = 0;
     int back_width;
     boolean flop = false;
@@ -36,13 +36,28 @@ public class MyWorld extends World
            for(int i=0; i<3; ++i)
         {
             
-             int A = 0;
-             int B = 500;
+             int A = 300;
+             int B = 800;
+             int x = A + (int)(Math.random()*((B-A)+1));
+              A = 0;
+              B = 400;
+             int y = A + (int)(Math.random()*((B-A)+1));
+             addObject( new hata(), x, y );
+             
+             
+
+            }
+            for(int i=0; i<3; ++i)
+        {
+            
+             int A = 300;
+             int B = 800;
              int x = A + (int)(Math.random()*((B-A)+1));
               A = 0;
               B = 300;
              int y = A + (int)(Math.random()*((B-A)+1));
-             addObject( new hata(), x, y );   
+             addObject( new jirai(), x, y );
+             
              
 
             }
@@ -63,7 +78,7 @@ public class MyWorld extends World
         getBackground().drawImage( flop ? back_flop : back, back_x, 0 );
         getBackground().drawImage( flop ? back : back_flop, back_x+back_width, 0 );
 
-        showText( "back_x : "+ back_x, 100, 10 );
+        //showText( "back_x : "+ back_x, 100, 10 );
     }
     
 
