@@ -33,5 +33,9 @@ Actor actor = getOneIntersectingObject(hata.class );
 if( actor != null ){
     getWorld().removeObject( actor );
 }
+Actor actor2 = getOneIntersectingObject(jirai.class );
+if( actor2 != null ){
+    getWorld().removeObject( actor2 );
+}
     }    
 }
