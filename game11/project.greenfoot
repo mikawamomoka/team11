@@ -1,7 +1,9 @@
 #Greenfoot project file
 class.A.image=smiley5.png
 class.B.image=turtle.png
+class.MyWorld.image=chisou_mizu.png
 class.c.image=tree3.png
+class.hata.image=kaizoku_mark_hata.png
 class.jirai.image=war_jirai.png
 class.num1.image=number_1.png
 class.taro.image=dog_doberman.png
@@ -9,18 +11,30 @@ dependency1.from=MyWorld
 dependency1.to=taro
 dependency1.type=UsesDependency
 dependency2.from=MyWorld
-dependency2.to=num1
+dependency2.to=hata
 dependency2.type=UsesDependency
 dependency3.from=MyWorld
 dependency3.to=jirai
 dependency3.type=UsesDependency
+<<<<<<< HEAD
+=======
+dependency4.from=taro
+dependency4.to=hata
+dependency4.type=UsesDependency
+>>>>>>> 1619f224aa239838f53fdbbd27f3c7b7365753e6
 editor.fx.0.height=0
 editor.fx.0.width=0
 editor.fx.0.x=0
 editor.fx.0.y=0
+<<<<<<< HEAD
 height=585
 package.numDependencies=3
 package.numTargets=7
+=======
+height=635
+package.numDependencies=4
+package.numTargets=8
+>>>>>>> 1619f224aa239838f53fdbbd27f3c7b7365753e6
 project.charset=windows-31j
 publish.hasSource=false
 publish.locked=true
@@ -34,7 +48,7 @@ readme.name=@README
 readme.width=47
 readme.x=10
 readme.y=10
-simulation.speed=50
+simulation.speed=68
 target1.height=50
 target1.name=A
 target1.showInterface=false
@@ -57,35 +71,47 @@ target3.width=80
 target3.x=0
 target3.y=0
 target4.height=50
-target4.name=num1
+target4.name=hata
 target4.showInterface=false
 target4.type=ClassTarget
 target4.width=80
 target4.x=0
 target4.y=0
 target5.height=50
-target5.name=jirai
+target5.name=num1
 target5.showInterface=false
 target5.type=ClassTarget
 target5.width=80
 target5.x=0
 target5.y=0
 target6.height=50
-target6.name=taro
+target6.name=jirai
 target6.showInterface=false
 target6.type=ClassTarget
 target6.width=80
 target6.x=0
 target6.y=0
 target7.height=50
-target7.name=MyWorld
+target7.name=taro
 target7.showInterface=false
 target7.type=ClassTarget
 target7.width=80
 target7.x=0
 target7.y=0
+target8.height=50
+target8.name=MyWorld
+target8.showInterface=false
+target8.type=ClassTarget
+target8.width=80
+target8.x=0
+target8.y=0
 version=3.0.0
-width=941
+width=1095
 world.lastInstantiated=MyWorld
+<<<<<<< HEAD
 xPosition=848
 yPosition=139
+=======
+xPosition=231
+yPosition=215
+>>>>>>> 1619f224aa239838f53fdbbd27f3c7b7365753e6

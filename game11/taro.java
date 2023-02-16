@@ -29,5 +29,9 @@ if( Greenfoot.isKeyDown( "up" ) ){
 if( Greenfoot.isKeyDown( "down" ) ){
    setLocation( x,y+1 );
 }
+Actor actor = getOneIntersectingObject(hata.class );
+if( actor != null ){
+    getWorld().removeObject( actor );
+}
     }    
 }
