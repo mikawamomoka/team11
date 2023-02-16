@@ -8,12 +8,13 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class MyWorld extends World
 {
-
+    private int timecount = 1000;
     /**
      * Constructor for objects of class MyWorld.
      * 
      */
     public MyWorld()
+    
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1); 
@@ -35,5 +36,7 @@ public class MyWorld extends World
     }
     setActOrder(jirai.class, num1.class, taro.class);
     
+    
     }
+    
 }
